@@ -1,0 +1,62 @@
+/* p {
+    padding-top:-2px
+} */
+.root {
+    display: flex
+}
+.left {
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 70px;
+    max-width: 400px;
+}
+.right {
+    border-left: thick solid #000000;
+    padding-left: 100px;
+    padding-top: 20px;
+    max-width: 700px;
+}
+.heading {
+    font-size: 70px;
+    cursor: pointer;
+}
+.projects {
+    display: none;
+}
+.experience {
+    display: none;
+}
+.experienceitem {
+    padding-top: 5px;
+}
+.contact {
+    padding-top: 40px;
+    font-size: 30px;
+}
+.aboutme {
+    font-size: 25px;
+}
+.education {
+    display: none;
+}
+.title {
+    font-size: 30px;
+}
+.subtitle {
+    padding-top:5px;
+    font-size: 20px;
+}
+.secondtitle {
+    font-size: 30px;
+    padding-top: 50px;
+}
+.content {
+    padding-top:10px;
+    font-size: 20px;
+}
+.listitem {
+    padding-top: 5px;
+}
+.logo {
+    padding-left: 15px;
+}
