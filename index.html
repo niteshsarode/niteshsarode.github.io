@@ -7,21 +7,31 @@
                     document.getElementById("aboutme").style.display = "block"
                     document.getElementById("projects").style.display = "none"   
                     document.getElementById("experience").style.display = "none"
+                    document.getElementById("activities").style.display = "none"
                     document.getElementById("education").style.display = "none"
                 } else if(heading == "projects") {
                     document.getElementById("aboutme").style.display = "none"
                     document.getElementById("projects").style.display = "block"
                     document.getElementById("education").style.display = "none"
+                    document.getElementById("activities").style.display = "none"
                     document.getElementById("experience").style.display = "none"
                 } else if(heading == "experience") {
                     document.getElementById("aboutme").style.display = "none"
                     document.getElementById("projects").style.display = "none"
                     document.getElementById("experience").style.display = "block"
+                    document.getElementById("activities").style.display = "none"
                     document.getElementById("education").style.display = "none"
-                }  else if(heading == "education") {
+                }  else if(heading == "activities") {
                     document.getElementById("aboutme").style.display = "none"
                     document.getElementById("projects").style.display = "none"   
                     document.getElementById("experience").style.display = "none"
+                    document.getElementById("activities").style.display = "block"
+                    document.getElementById("education").style.display = "none"
+                } else if(heading == "education") {
+                    document.getElementById("aboutme").style.display = "none"
+                    document.getElementById("projects").style.display = "none"   
+                    document.getElementById("experience").style.display = "none"
+                    document.getElementById("activities").style.display = "none"
                     document.getElementById("education").style.display = "block"
                 }
 
@@ -37,6 +47,7 @@
                 <div class="heading" onclick="switchcontent('aboutme');"> About me </div>
                 <div class="heading" onclick="switchcontent('projects');"> Projects </div>
                 <div class="heading" onclick="switchcontent('experience');"> Experience </div>
+                <div class="heading" onclick="switchcontent('activities');"> Activities </div>
                 <div class="heading" onclick="switchcontent('education');"> Education </div>
                 <div class="contact">
                     <a href="https://linkedin.com/in/nitesh-sarode" target="_blank"><img src="images/linkedin.png" width=40 height=40></a>
@@ -47,12 +58,12 @@
             </div>
             <div class="right">
                 <div id="aboutme" class="aboutme">
-                    Hi there....... </br>
-                    <p>I am a recent graduate student, completed my Masters in Computer Science from Arizona State University.</p>
-                    <p>I have experience of roughly one year in building scalable applications from scratch using cutting-edge technologies.</p>
-                    <p>Worked in different domains Data Visualization, Data Mining, Cloud Computing, Distributed Systems to name a few.</p>
-                    <p>Interested in building new products mainly in data, finance, consumer and health.</p>
-                    <p>Feel free to reach out to me if you are building cool products or hiring for software/data engineer, APM roles.</p>
+                    Hi there, I am Nitesh Sarode! </br>
+                    <p>A recent graduate student, completed my Masters in Computer Science from Arizona State University.</p>
+                    <p>I have experience in working on large scale data intensive systems, web and android applications.</p>
+                    <p>Worked in different domains Distributed Systems, Data Mining, Cloud Computing, Machine Learning to name a few.</p>
+                    <p>I love to work on different technologies and build interesting products mainly in data, finance, consumer and health.</p>
+                    <p>Feel free to reach out to me if you are building cool products and hiring for software/data engineer, APM roles.</p>
                 </div>
                 <div id="projects" class="projects">
                     <div class="title">
@@ -159,6 +170,7 @@
                         <div class="experienceitem">Increased semi-supervised topic modeling accuracy from 84% to 96% with minimal domain knowledge on Facebook posts.</div>
                         <div class="experienceitem">Collected millions of tweets by bot accounts from twitter and implemented a hashtag based topic detection model on these historical set of tweets to determine enduring and spiking topics.</div>
                         <div class="experienceitem"><b>Python, Flask, React, Java, ElasticSearch, PostgreSQL, AWS </b></div>
+                        <div class="experienceitem"><b>Links: <a href="https://www.mccaininstitute.org/wp-content/uploads/2019/11/final-report_disinformationgeogia.pdf" target="_blank">Looking Glass Report</a> </b></div>             
                     </div>
                     <div class="secondtitle">
                         Software Engineer</br>
@@ -173,6 +185,14 @@
                         <div class="experienceitem">Contributed to Social Login and Two Factor Authentication Wordpress plugins of miniOrange.</div>
                         <div class="experienceitem"><b>Java, PHP, PostgreSQL </b></div> 
                     </div>
+                </div>
+                <div id="activities" class="activities">
+                    <ul>
+                        <li class="activityitem">Currently working on building a platform that will help users to find peers for their side projects. Coming Soon...!</li>
+                        <li class="activityitem">Developed an Alexa skills application and secured a runner up position in the InfernoHack challenge.</li>
+                        <li class="activityitem">Certified Machine Learning Course by Stanford University on Coursera.</li>
+                        <li class="activityitem">Developed and published an android application that currently has 100+ downloads on Google Play Store. (<a href="https://play.google.com/store/apps/details?id=com.monster.massivexov10&hl=en_US" target="_blank">MassiveXO</a>)</li>
+                    </ul>
                 </div>
                 <div id="education" class="education">
                     <div class="title">

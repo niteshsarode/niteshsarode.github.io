@@ -35,6 +35,15 @@
 }
 .aboutme {
     font-size: 25px;
+    padding-top: 20%;
+}
+.activities {
+    display: none;
+    font-size: 25px;
+    padding-top: 30%;
+}
+.activityitem {
+    padding-top: 20px;
 }
 .education {
     display: none;
