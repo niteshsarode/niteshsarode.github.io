@@ -3,6 +3,7 @@
 } */
 .root {
     display: flex;
+    color: darkslategrey;
 }
 .left {
     padding-left: 100px;
@@ -56,15 +57,18 @@
 .title {
     font-size: 30px;
     color: cadetblue;
+    font-weight: bold;
 }
 .subtitle {
     padding-top:5px;
     font-size: 20px;
+    font-weight: bold;
 }
 .secondtitle {
     font-size: 30px;
     padding-top: 50px;
     color: cadetblue;
+    font-weight: bold;
 }
 .content {
     padding-top:10px;
