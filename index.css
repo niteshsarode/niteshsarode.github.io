@@ -9,13 +9,14 @@
     padding-left: 100px;
     padding-top: 100px;
     padding-right: 70px;
-    max-width: 400px;
+    width: 25%;
 }
 .right {
     border-left: thick solid #000000;
     padding-left: 50px;
     padding-top: 20px;
-    max-width: 750px;
+    width: 75%;
+    height: 100vh;
 }
 .heading {
     font-size: 70px;
@@ -23,12 +24,12 @@
 }
 .projects {
     display: none;
-    max-height: 100vh;
+    height: 100vh;
     overflow-y: scroll;
 }
 .experience {
     display: none;
-    max-height: 100vh;
+    height: 100vh;
     overflow-y: scroll;
 }
 .experienceitem {
